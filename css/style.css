@@ -7,8 +7,8 @@
 }
 
 html {
-  background-color: #84CEEB;
-  font-family: 'Nunito', sans-serif;
+  background-color: tomato;
+  font-family: 'Asap', sans-serif;
   height: 100vh;
 }
 
@@ -21,7 +21,7 @@ html {
 
 .container {
   padding: 16px;
-  background-color: #5680E9;
+  background-color: whitesmoke;
   border-radius: 16px;
   width: 40%;
 }
@@ -65,6 +65,7 @@ input {
 }
 
 .score {
+  color: rgb(34, 71, 238);
   font-size: 19px;
   text-align: end;
   padding-right: 10px;
