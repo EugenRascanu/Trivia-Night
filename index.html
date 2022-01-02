@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="nav-wrapper black">
-        <div class="containter">
-            <a href="#index.html" class="brand-logo center>Quiz Game"</a>        
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz App - S.G. Codes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>  
+        <div class="mainDiv">
+            <div class="container">
+                <div class="score"></div>
+                <h1 class="question">This is the question?</h1>
+                <ul>
+                    <li>
+                        <input type="radio" id='ans1' class="answer" name='answer' />
+                        <label for='ans1' id='option1'>Option 1</label>
+                    </li>
+                    <li>
+                        <input type="radio" id='ans2' class="answer" name='answer' />
+                        <label for='ans2' id='option2'>Option 2</label>
+                    </li>
+                    <li>
+                        <input type="radio" id='ans3' class="answer" name='answer' />
+                        <label for='ans3' id='option3'>Option 3</label>
+                    </li>
+                    <li>
+                        <input type="radio" id='ans4' class="answer" name='answer' />
+                        <label for='ans4' id='option4'>Option 4</label>
+                    </li>
+                </ul>
+                <button class="submitBtn">Submit</button>
+                <div class="playAgain">
+                    <!-- <button class="playAgainBtn">Play Again</button> -->
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <section class="container section">
-<div class="row">
-    <form class="myform" name="id" onsubmit="submitted(event)">
-    <h4 class="centeralign white-text">Player Name</h4>
-    </form>
-</div>
-    </section>
-
-    
-</body>
+        <script src="./scripts.js"></script>
+    </body>
 </html>
