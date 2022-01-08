@@ -1,4 +1,4 @@
-var AllQuestions = [{
+var allQuestions = [{
     question: "In the hit movie 'Die Hard', what is John MClane's famous catch-phrase?",
     a: 'Ho-Ho-Ho, now i have a machinegun!',
     b: 'Yippee-ki-yay!',
@@ -80,7 +80,7 @@ function shuffleArray(array) {
     }
     return dummyArray;
 }
-AllQuestions = shuffleArray(AllQuestions);
+allQuestions = shuffleArray(allQuestions);
 var mainDiv = document.querySelector('.mainDiv');
 var container = document.querySelector('.container');
 var question = document.querySelector('.question');
@@ -133,18 +133,18 @@ const nextQuestion = () => {
     ++questionNumber;
 
     answers.forEach(ans => ans.checked = false);
-    if (questionNumber < AllQuestions.length)
+    if (questionNumber < allQuestions.length)
         loadQuestions();
     else {
-        currentQuestionMarkup.innerHTML = `Question: ${questionNumber + 1}/${AllQuestions.length}`;
+        currentQuestionMarkup.innerHTML = `Question: ${questionNumber + 1}/${allQuestions.length}`;
         localStorage.removeItem("userNameValue");
-        AllQuestions = shuffleArray(AllQuestions);
+        allQuestions = shuffleArray(allQuestions);
     }
 }
 
 const loadQuestions = () => {
-    currentQuestionMarkup.innerHTML = `Question: ${questionNumber + 1}/${AllQuestions.length}`;
-    var currentQuestion = AllQuestions[questionNumber];
+    currentQuestionMarkup.innerHTML = `Question: ${questionNumber + 1}/${allQuestions.length}`;
+    var currentQuestion = allQuestions[questionNumber];
 
     question.innerHTML = currentQuestion.question;
     option1.innerHTML = currentQuestion.a;
@@ -174,7 +174,7 @@ if (localStorage.getItem("userNameValue") == "" || !localStorage.getItem("userNa
 //Events
 submitAnswerBtn.addEventListener('click', () => {
     var markedAnswer = getAnswer();
-    var currentQuestion = AllQuestions[questionNumber];
+    var currentQuestion = allQuestions[questionNumber];
 
     if (markedAnswer != -1) {
         if (markedAnswer == currentQuestion.answer) {
@@ -192,8 +192,8 @@ submitAnswerBtn.addEventListener('click', () => {
         return;
     }
 
-    if (questionNumber == AllQuestions.length - 1) {
-        resultScoreMarkup.innerHTML = `${score}/${AllQuestions.length}`;
+    if (questionNumber == allQuestions.length - 1) {
+        resultScoreMarkup.innerHTML = `${score}/${allQuestions.length}`;
         resultsContent.style.display = "block";
     } else {
         setTimeout(nextQuestion, 1000);
@@ -208,7 +208,7 @@ restartBtn.addEventListener('click', () => {
 });
 
 confirmRestartBtn.addEventListener('click', () => {
-    AllQuestions = shuffleArray(AllQuestions);
+    allQuestions = shuffleArray(allQuestions);
     score = 0;
     questionNumber = 0;
     loadQuestions();
