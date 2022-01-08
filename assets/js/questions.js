@@ -418,4 +418,74 @@ let allQuestions = [{
     c: '1990',
     d: '1991',
     answer: 'ans2'
+}, {
+    question: "What are the names of the two people behind Ghostface in 'Scream'?",
+    a: 'Billy and Steve',
+    b: 'Bobby and Stu',
+    c: 'Bobby and Steve',
+    d: 'Billy and Stu',
+    answer: 'ans4'
+}, {
+    question: "What was the highest-grossing movie of 2005?",
+    a: 'War of the Worlds',
+    b: 'Star Wars: Episode III: Revenge of the Sith',
+    c: 'Harry Potter and the Goblet of Fire',
+    d: 'The Chronicles of Narnia: The Lion, The Witch, and the Wardrobe',
+    answer: 'ans3'
+}, {
+    question: "When was the first 'Mission: Impossible' movie released?",
+    a: '1993',
+    b: '1996',
+    c: '1997',
+    d: '1999',
+    answer: 'ans2'
+}, {
+    question: "Who voices Lenny the shark in 2004’s 'Shark Tale'?",
+    a: 'Adam Sandler',
+    b: 'Will Ferrell',
+    c: 'Jack Black',
+    d: 'Jimmy Fallon',
+    answer: 'ans3'
+}, {
+    question: "What movie is this famous quote from: 'You can’t handle the truth!'",
+    a: 'A Few Good Men',
+    b: 'Training Day',
+    c: 'Saving Private Ryan',
+    d: 'Armageddon',
+    answer: 'ans3'
+}, {
+    question: "Which character in 'The Godfather' is nicknamed 'The Turk'?",
+    a: 'Emilio Barzini',
+    b: 'Sonny Corleone',
+    c: 'Virgil Sollozzo',
+    d: "Salvatore Tessio",
+    answer: 'ans3'
+}, {
+    question: "Where was 'The Notebook' filmed?",
+    a: 'Savannah, Georgia',
+    b: 'Wilmington, North Carolina',
+    c: 'Richmond, Virginia',
+    d: 'Charleston, South Carolina',
+    answer: 'ans4'
+}, {
+    question: "Which country does Forrest Gump travel to as part of the All-American Ping-Pong Team?",
+    a: 'Vietnam',
+    b: 'China',
+    c: 'Sweden',
+    d: 'France',
+    answer: 'ans2'
+}, {
+    question: "Which famous 'Pulp Fiction' scene was filmed backward?",
+    a: 'Vincent and Mia’s dance scene',
+    b: 'Mia’s overdose scene',
+    c: 'The royale with cheese scene',
+    d: 'The Ezekiel 25:17 scene',
+    answer: 'ans2'
+}, {
+    question: "Which actor was in the following movies: 'The Outsiders', 'Wayne’s World', and 'Tommy Boy'?",
+    a: 'Tom Cruise',
+    b: 'Matt Dillon',
+    c: 'Rob Lowe',
+    d: 'C. Thomas Howell',
+    answer: 'ans3'
 }, ];
