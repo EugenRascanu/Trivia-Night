@@ -19,7 +19,7 @@ html {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    width: 100vw;
+    margin: 0 10px 0 10px;
 }
 
 .container {
@@ -96,8 +96,7 @@ input {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
@@ -111,46 +110,34 @@ input {
 }
 
 .audio {
-	position: fixed;
+    position: fixed;
     bottom: 10px;
     padding: 10px;
-	max-width: 35%;
-	max-height: 35%;
-	margin: auto;
-	object-fit: contain;
+    max-width: 35%;
+    max-height: 35%;
+    margin: auto;
+    object-fit: contain;
 }
+
 
 /* media q's */
 
 @media screen and (max-width: 1200px) {
-	.container {
-		width: 100%;
-  }
-  .html {
-    max-width: 100%;
-    display: block;
-    height:auto;
-  }
-	
+    .container {
+        width: 100%;
+    }
+    .modal-content {
+        width: 95%;
+    }
+    .html {
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
 }
 
-@media screen and (max-width: 950px) {
-  .container {
-		width: 80%;
+@media screen and (max-width: 950px) {}
 
-	
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 768px) {
-	.container {
-		width: 60%;
-}
-
-
-@media screen and (max-height: 590px) {
-	.container {
-		width: 50%;
-  }
-}
-}
-}
+@media screen and (max-height: 590px) {}
