@@ -1,5 +1,5 @@
 let selectedQuestions = [];
-let quizLength = 5;
+let quizLength = 10;
 
 let mainDiv = document.querySelector(".mainDiv");
 let container = document.querySelector(".container");
