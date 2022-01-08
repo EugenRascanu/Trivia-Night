@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Night: Movie Edition</title>
+    <title>Movie Trivia</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,11 +12,11 @@
 
 <body>
 
-    <audio class="audio" controls autoplay loop>
+    <audio class="audio" controls autoplay muted loop>
         <source src="assets/audio/audio.mp3" type="audio/mp3">
     </audio>
 
-     <div class="mainDiv">
+    <div class="mainDiv">
         <div class="container">
             <div class="currentQuestion"> </div>
             <h1 class="question">Is this your question?</h1>
@@ -45,10 +45,10 @@
         </div>
     </div>
 
-  
 
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content" id="content">
@@ -65,7 +65,7 @@
             </div>
 
             <div class="wrongAnswer" style="display: none">
-                <img src='./assets/images/incorrect1.jpg' alt="wrong answer" style='width: 200px; height: 200px;'>
+                <img src='./assets/images/incorrect1.jpg' alt="incorrect answer" style='width: 200px; height: 200px;'>
             </div>
 
             <div class="noAnswer" style="display: none">
@@ -84,9 +84,6 @@
             </div>
 
         </div>
-
-      
-    
 
         <script src="./assets/js/questions.js"></script>
         <script src="./assets/js/script.js"></script>
