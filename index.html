@@ -7,14 +7,14 @@
     <title>Movie Trivia</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="mainDiv">
         <div class="container">
             <div class="currentQuestion"> </div>
-            <h1 class="question">This is the question?</h1>
+            <h1 class="question">Is this your question?</h1>
             <ul>
                 <li>
                     <input type="radio" id='ans1' class="answer" name='answer' />
@@ -39,3 +39,47 @@
             </div>
         </div>
     </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" id="content">
+            <form class="userNameForm" style="display: none;">
+                <div style='width: 100%;'>
+                    <label style='width: 100%; text-align: center; float:left'>Enter Your User Name</label>
+                    <input type='text' name='user' id='user' style='width:100%;  margin-top:10px; padding:1%'>
+                    <button type="button" style='width: 40%; background-color: aquamarine; margin:0px 30%; margin-top:10px; padding:1%' class='userBtn'>Enter</button>
+                </div>
+            </form>
+
+            <div class="rightAnswer" style="display: none">
+                <img src='assets/images/correct.jpg' alt="right answer" style='width: 88px; height: 88px;'>
+            </div>
+
+            <div class="wrongAnswer" style="display: none">
+                <img src='./assets/images/wrong.png' alt="wrong answer" style='width: 88px; height: 88px;'>
+            </div>
+
+            <div class="noAnswer" style="display: none">
+                <span>Please select an answer</span>
+            </div>
+
+            <div class="resultsContent" style="display: none">
+                Score: <span class="resultScore"></span>
+                <div class="playAgain"><button class='playAgainBtn' onClick='location.reload()'>Play Again</button></div>
+            </div>
+
+            <div class="restartQuizContent" style="display: none;">
+                Are you sure you want to restart?
+                <button class="confirmRestartBtn">Yup</button>
+                <button class="cancelRestartBtn">Nah</button>
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
