@@ -1,21 +1,34 @@
 # Trivia Night: Movie Edition
 
 
-### "Trivia Night: Movie Edition" is a website that tests your movie knowledge. 
+## "Trivia Night: Movie Edition" is a website that tests your movie knowledge. 
 
 ![Responsive Image](/assets/readme-imgs/responsive.jpg)
 
 
 ## Features
 
+* This quiz game has a set of 50 questions. Once you start the game,
+
 * The web page has an audio player on the bottom left side of the screen. As default, it's set on muted autoplay with loop option.
+
 ![Audio Player](/assets/readme-imgs/audio.jpg)
 
 * Before you can start the game, a username has to be set.
+
 ![Username](/assets/readme-imgs/username.jpg)
 
 * After you have entered your username, the game starts.
+
 ![Game](/assets/readme-imgs/question.jpg)
+
+* If no option is selected, you are prompted with a pop-up to select an answer.
+
+![Answer](/assets/readme-imgs/answer.jpg)
+
+* While playing, you have the option to submit your answer or to restart the game. If you do choose to restart, a pop-up will ask you if you want to proceed.
+
+![Restart](/assets/readme-imgs/restart.jpg)
 
 
 # Testing
