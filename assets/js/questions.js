@@ -452,7 +452,7 @@ let allQuestions = [{
     b: 'Training Day',
     c: 'Saving Private Ryan',
     d: 'Armageddon',
-    answer: 'ans3'
+    answer: 'ans1'
 }, {
     question: "Which character in 'The Godfather' is nicknamed 'The Turk'?",
     a: 'Emilio Barzini',
