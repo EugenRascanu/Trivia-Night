@@ -1,7 +1,7 @@
 # Trivia Night: Movie Edition
 
 
-## [Trivia Night: Movie Edition]() is a website that tests your movie knowledge. 
+## [Trivia Night: Movie Edition](https://eugenrascanu.github.io/Trivia-Night/) is a website that tests your movie knowledge. 
 
 ![Responsive Image](/assets/readme-imgs/responsive.jpg)
 
@@ -75,7 +75,7 @@
 * The project has been deployed to GitHub pages.
   * In the GitHug repository, navigate to the Settings Tab
   * From the source section drop-down menu, select Master Branch
-  * Once the Master Branch has been selected, the page provides the link to the complete website, which can be seen here: [Trivia Night: Movie Edition](https://eugenrascanu.github.io/) 
+  * Once the Master Branch has been selected, the page provides the link to the complete website, which can be seen here: [Trivia Night: Movie Edition](https://eugenrascanu.github.io/Trivia-Night/) 
 
   # Credits
 * Content
