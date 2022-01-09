@@ -3,12 +3,19 @@
 
 ### "Trivia Night: Movie Edition" is a website that tests your movie knowledge. 
 
-### 
-
-![Responsive Image](/assets/images/responsive.jpg)
+![Responsive Image](/assets/readme-imgs/responsive.jpg)
 
 
 ## Features
+
+* The web page has an audio player on the bottom left side of the screen. As default, it's set on muted autoplay with loop option.
+![Audio Player](/assets/readme-imgs/audio.jpg)
+
+* Before you can start the game, a username has to be set.
+![Username](/assets/readme-imgs/username.jpg)
+
+* After you have entered your username, the game starts.
+![Game](/assets/readme-imgs/question.jpg)
 
 
 # Testing

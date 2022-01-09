@@ -12,11 +12,14 @@
 
 <body>
 
+    <!-- audio player with muted autoplaying loop -->
     <audio class="audio" controls autoplay muted loop>
         <source src="assets/audio/audio.mp3" type="audio/mp3">
     </audio>
+   
 
-    <div class="mainDiv">
+    <!-- question container body -->
+<div class="mainDiv">
         <div class="container">
             <div class="currentQuestion"> </div>
             <h1 class="question">Is this your question?</h1>
@@ -38,6 +41,8 @@
                     <label for='ans4' id='option4'>Option 4</label>
                 </li>
             </ul>
+
+            <!-- submit and restart btn -->
             <div class="buttonsWrapper">
                 <button class="submitAnswerBtn">Submit</button>
                 <button class="restartBtn">Restart</button>
@@ -47,19 +52,20 @@
 
 
 
-    <!-- The Modal -->
+    <!-- the modal -->
     <div id="myModal" class="modal">
 
-        <!-- Modal content -->
+        <!-- username credentials -->
         <div class="modal-content" id="content">
             <form class="userNameForm" style="display: none;">
                 <div style='width: 100%;'>
                     <label style='width: 100%; text-align: center; float:left'>Enter Your User Name</label>
                     <input type='text' name='user' id='user' style='width:100%;  margin-top:10px; padding:1%'>
-                    <button type="button" style='width: 40%; background-color: aquamarine; margin:0px 30%; margin-top:10px; padding:1%' class='userBtn'>Enter</button>
+                    <button type="button" style='width: 40%; background-color: rgb(43, 226, 37); margin:0px 30%; margin-top:10px; padding:1%' class='userBtn'>Enter</button>
                 </div>
             </form>
-
+               
+               <!-- correct or incorrect images -->
             <div class="rightAnswer" style="display: none">
                 <img src='assets/images/correct1.jpg' alt="right answer" style='width: 200px; height: 200px;'>
             </div>
@@ -68,15 +74,17 @@
                 <img src='./assets/images/incorrect1.jpg' alt="incorrect answer" style='width: 200px; height: 200px;'>
             </div>
 
+             <!-- no answer is selected -->
             <div class="noAnswer" style="display: none">
                 <span>Please select an answer</span>
             </div>
 
+             <!-- end screen with results and play again -->
             <div class="resultsContent" style="display: none">
                 Score: <span class="resultScore"></span>
                 <div class="playAgain"><button class='playAgainBtn' onClick='location.reload()'>Play Again</button></div>
             </div>
-
+                  <!-- restart option -->
             <div class="restartQuizContent" style="display: none;">
                 Do you want to restart?
                 <button class="confirmRestartBtn">Yes</button>
@@ -85,6 +93,7 @@
 
         </div>
 
+        <!-- JS and questions -->
         <script src="./assets/js/questions.js"></script>
         <script src="./assets/js/script.js"></script>
 </body>
